@@ -1,0 +1,34 @@
+1. python adalah bahasa pemerograman yang cukup populer kerap juga digunakan dalam cp  ataupun web developer dan lainya
+
+2. untuk mengprint kita mengunakan print print(" ")
+
+3. untuk mengubah format kita tingal mengunakan functionn masing masing format variable seperti str(..), int(..),parse(..)
+
+4. untuk mengunakan random kita dapat mengimport module random dan mengunakan method bawanya
+	==================================================
+	import random
+	math = random.randint(0,1)
+	
+	mathRandom=random.random()
+	==================================================
+	kita kita mengunakan randint() maka hasilnya berupa integer dengan range sesuai parameter sementara random.random akan benar benar random dalam bentuk float
+
+5.list -> merupakan array yang berurutan	
+	============================
+	##deklarasi
+	fruits=["cherry","apple"]
+	## pemanggilan
+	print(fruits[0]) #cherry
+	print(fruits[-1]) #apple
+	============================
+	jika positif maka akan dari depan , jika negatif dari belakang
+	ada beberapa method bawaan dari list seperti :
+	- append("") -> untuk menambahkan dari belakang 
+	- pop("") -> menambah dari depan 
+	-extend ("")-> menambah dari array dengan isi array lainya
+	-reverse() -> membalikan 
+	- del (nama array) menghapus suatu isi array/array
+
+6.loop 
+	untuk looping mengunakan for (var) in (list/range) :  
+	

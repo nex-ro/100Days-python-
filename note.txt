@@ -31,4 +31,10 @@
 
 6.loop 
 	untuk looping mengunakan for (var) in (list/range) :  
+
+7. function
+	untuk membuat function kita mengunkana def 
+	def nama (parameter1,parameter2):
+		(action)
+
 	

@@ -37,4 +37,18 @@
 	def nama (parameter1,parameter2):
 		(action)
 
+8. pypi merupakan python packages index yang menyediakan package yang telah ada
+
+9. untuk menambahkan pypi pada pycharm tekan file -> setting-> prefrences -> nama file lalu add dan cari pypi
+
 	
+10. oop 
+	dalam oop sebuah class wajib dibikin objectnya dan harus di import jika berada di beda file
+
+11. constructor 
+	pada python untuk melakukan constructor 
+	======================================
+	def __init__(self):
+		(action)
+	======================================
+	parameter self bersifat wajib yang akan merefrenece dirinya sendiri

@@ -1,14 +1,21 @@
 from turtle import Turtle
 class snake:
+
     def __init__(self):
         self.turtles = []
         for i in range(3):
-            t = Turtle()
-            t.shape("square")
-            t.goto(x=i * -20, y=0)
-            t.color("white")
-            t.penup()
-            self.turtles.append(t)
+            self.Createsnake((i*-20,0))
+
+    def extend(self):
+        self.Createsnake(self.turtles[-1].position())
+    def Createsnake(self,position):
+        t = Turtle()
+        t.shape("square")
+        t.color("white")
+        t.penup()
+        t.goto(position)
+        self.turtles.append(t)
+
     def move(self):
         for i in range(len(self.turtles) - 1, 0, -1):
             xCor = self.turtles[i - 1].xcor()

@@ -1,6 +1,5 @@
 from turtle import Turtle
 class snake:
-
     def __init__(self):
         self.turtles = []
         for i in range(3):
@@ -16,6 +15,12 @@ class snake:
         t.goto(position)
         self.turtles.append(t)
 
+    def resetPosition(self):
+        for i in range(len(self.turtles)):
+            self.turtles[i].goto(1000,1000)
+        self.turtles.clear()
+        for i in range(3):
+            self.Createsnake((i*-20,0))
     def move(self):
         for i in range(len(self.turtles) - 1, 0, -1):
             xCor = self.turtles[i - 1].xcor()

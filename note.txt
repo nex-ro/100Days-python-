@@ -40,7 +40,6 @@
 8. pypi merupakan python packages index yang menyediakan package yang telah ada
 
 9. untuk menambahkan pypi pada pycharm tekan file -> setting-> prefrences -> nama file lalu add dan cari pypi
-
 	
 10. oop 
 	dalam oop sebuah class wajib dibikin objectnya dan harus di import jika berada di beda file
@@ -52,3 +51,18 @@
 		(action)
 	======================================
 	parameter self bersifat wajib yang akan merefrenece dirinya sendiri
+
+12. pada python kita dapat membuka sebuah file dengan cara
+	=========================================================
+	with open(file loc , mode ="w") as file:
+		.....(action)
+	=========================================================
+	file contain in file variable
+	mode ="w" agar kita dapat menambahkan write secara default hanya read only
+	file .write (method untuk write file)
+
+	ada 4 mode yaitu :
+	- "a " = appending , artinya menambah data pada file
+	-"w " = write , menulis ulang data 
+	-read = read
+	-execute =menjalankan

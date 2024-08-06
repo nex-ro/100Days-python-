@@ -66,3 +66,12 @@
 	-"w " = write , menulis ulang data 
 	-read = read
 	-execute =menjalankan
+
+13 , untuk menanginn data bertipe csv kita dapat mengunakan library csv dimana csv.reader() dapat mengubah bentuk menjadi object
+
+	atau bisa juga mengunakan pandas dengan cara berikut
+	=====================================================
+	import pandas
+	data=pandas.read.csv(path)
+	print(data)
+	=====================================================

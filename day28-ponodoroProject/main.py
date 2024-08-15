@@ -1,5 +1,6 @@
 import math
 from tkinter import *
+from playsound import playsound
 
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -31,12 +32,16 @@ def countDownStart():
     shortDuration=SHORT_BREAK_MIN*60
     work=WORK_MIN*60
     if(set%8==0):
+        playsound("Vestia Zeta - Santai Dulu Gak Sih.mp3")
         countDown(longDuration)
         labelstatus.config(text="Break" ,fg=RED)
+
     elif(set%2==1):
+        playsound("Pokoknya Kerja Kerja Kerja with Good Ending  Meme.mp3")
         countDown(work)
         labelstatus.config(text="WORK", fg=GREEN)
     elif(set%2==0):
+        playsound("Vestia Zeta - Santai Dulu Gak Sih.mp3")
         countDown(shortDuration)
         labelstatus.config(text="Break", fg=PINK)
 
